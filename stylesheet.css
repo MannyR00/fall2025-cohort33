@@ -1,3 +1,51 @@
+/* only hero container padding */
 .container {
-    padding: 7rem;
+    padding: 4rem;
+    border-radius: 0%;
+    width: 400px;
+}
+
+.marquee {
+    font-family: "Science Gothic", sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0, "wdth" 100, "CTRS" 0;
+    z-index: 2;
+}
+
+/* remove giant padding from ALL containers */
+.container {
+    
+
+/* card styling */
+.card {
+  border-radius: 18px !important;
+  border: 2px solid rgba(77, 76, 76, 0.15) !important;
+  overflow: hidden;
+  background-color: #ffffff !important;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+/* page background */
+body {
+    background-color: aquamarine;
+}
+.hero {
+    radius: 0%;
+}
+.ggbridge {
+     position: relative;
+     z-index: 1;
+     top: 0;
+  left: 0;
+  width: 100%;
+}
+.ogcomp {
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;      /* adjust size */
+  transform: translate(-20%, 10%); /* moves it */
+  z-index: 2;     
 }
