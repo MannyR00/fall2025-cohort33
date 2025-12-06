@@ -38,7 +38,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("bridgeday.jpeg");
+  /* background-image: url("bridgeday.jpeg"); */
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -197,7 +197,7 @@ nav {
   padding: 10px 10px 5px;
   left: 4rem;
   font-size: 35px;
-  font-famioly: "BBH Sans Bogle", sans-serif;
+  font-family: "BBH Sans Bogle", sans-serif;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1px
@@ -210,4 +210,57 @@ nav {
   width: 90%;
   height: 600px;
   background-color: rgb(187, 187, 187);
+}
+
+.bounce-in{
+  animation: backInDown;
+  animation-duration: 1.5s;
+}
+
+.fade-in{
+  animation: fadeIn;
+  animation-duration: 5s;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+/* Directory Hero */
+
+.transparent-hero {
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 400px; 
+    width: 100%;
+    
+  
+    margin-top: var(--nav-height); 
+    
+    
+    background-image: url('path/to/your/transparent_gif.gif');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+    text-align: center;
+    
+    
+    background-color: #000000; 
+}
+
+.hero-title {
+    
+    font-size: 8rem; 
+    font-weight: 900;
+    color: white; 
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); 
+    padding: 20px;
 }

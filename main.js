@@ -24,3 +24,12 @@ scrollToTopBtn.onclick = function () {
     behavior: "smooth", // Smooth scrolling animation
   });
 };
+
+window.scrollTo(0, 0);
+
+//Dark mode
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
