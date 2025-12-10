@@ -263,9 +263,9 @@ video.active {
 }
 
 .card-mini-m {
-  margin-left: ;
-  width: 800px%;
-  height: 900px;
+  margin-top: 1rem;
+  width: 90%;
+  height: 600px;
   background-color: rgb(187, 187, 187);
 }
 
