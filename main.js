@@ -38,3 +38,5 @@ document.addEventListener("DOMContentLoaded", () => {
 ScrollReveal().reveal(".punchline1", { delay: 1000, duration: 1500 });
 ScrollReveal().reveal(".punchline2", { delay: 1750, duration: 1500 });
 ScrollReveal().reveal(".punchline", { delay: 1250, duration: 1500 });
+
+
