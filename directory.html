@@ -3,16 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    ]
-    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css" />
   </head>
-  <main>
+  <body>
     <nav
       class="navbar navbar-expand-lg bg-dark bg-body-tertiary fixed-top bg-body-tertiary"
       data-bs-theme="dark"
@@ -33,10 +36,10 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="directory.html">Directory</a>
+              <a class="nav-link active" href="directory.html">Directory</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="projects.html">Projects</a>
@@ -46,20 +49,30 @@
         </div>
       </div>
     </nav>
-    <body>
-      <div class="card text-bg-dark">
-        <img src="like.gif" class="card-img" alt="..." />
-        <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+    <main>
+     
+      <div class="students-container container-fluid">
+         <h1 class="mb-4">MEET OUR Class</h1>
+        <div class="students-name-tag" id="js-students-name-tag"></div>
+      </div>
+
+      <div class="teachers-container">
+        <h1 class="mb-4">MEET OUR INSTRUCTORS</h1>
+
+        <div
+          class="row justify-content-center align-items-center teachers-name-tag"
+          id="js-teachers-name-tag"
+        >
+          <!-- JS inserts instructor cards here -->
         </div>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </main>
+    <!--Boostrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
   </body>
-    </body>
-  </main>
 </html>

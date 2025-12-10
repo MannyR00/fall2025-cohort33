@@ -298,3 +298,134 @@ video.active {
 
 
 
+/*Directory CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.students-container,
+.teachers-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+  padding-right: 0;
+}
+
+.students-container {
+  background-color: gray;
+}
+
+.students-container h1,
+.teachers-container h1 {
+  color: white;
+}
+
+.students-name-tag {
+  display: flex;
+  flex-wrap: nowrap;  
+  gap: 100px;         
+  overflow-x: auto;     
+  padding-bottom: 10px;   
+  scroll-behavior: smooth; 
+}
+
+.student-name-tag {
+  position: relative;  
+  width: 300px;        
+}
+
+.name-tag {
+  width: 330px;
+  position: relative;
+}
+
+
+.student-info {
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+  font: 16px Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-wrap: break-word;
+
+ 
+}
+
+.headshot {
+  width: 150px;
+  margin-bottom: 10px;
+  border-radius: 20%;
+
+}
+
+.highlight {
+  max-width: 240px;
+  text-align: center;
+}
+
+.open-to-badge {
+  border-radius: 50px;
+  padding: 7px;
+  margin-bottom: 10px;
+  background-color: blue;
+  color: white;
+  
+}
+.linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin h5 {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.linkedin img {
+  width: 30px;
+}
+
+
+.teachers-container {
+  background-color: black;
+}
+
+.teacher-headshot {
+  width: 200px;
+}
+
+
+
+.teacher-name-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 250px;
+
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  
+}
+
+
+
+.teacher-info {
+  max-width: 200px;
+  text-align: center;
+}
+
+.directory-headers h1{
+  font-family: "BBH Sans Bogle", sans-serif;
+}
+
+.name, .teacher-name{
+  font-family: "Roboto", sans-serif;
+}
+
